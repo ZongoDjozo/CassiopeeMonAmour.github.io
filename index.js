@@ -27,5 +27,5 @@ function grandit() {
     }
     let text = ['pk pas ? ;(', 'reclick sur non je te bute', 'tu veux vraiment pas ?? :(', 'jv me jeter d''un pont', 'jv deprimer la ^^' ,'alleeeer stppp :(((', 'je vais pleurer snif :C', 'ca va être trop bien... promis !!', 'arretes tu vas me briser le coeur </3']
     let rep = document.getElementById('rep');
-    rep.textContent = text[getRandomInt(8)] ;
+    rep.textContent = text[getRandomInt(9)] ;
 }
