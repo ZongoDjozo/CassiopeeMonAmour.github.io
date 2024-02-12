@@ -25,7 +25,7 @@ function grandit() {
         btn.style.width = (width + 50) + "px";
         btn.style.height = (width + 50) + "px";
     }
-    let text = ['pk pas ? ;(', 'reclick sur non je te bute', 'tu veux vraiment pas ?? :(', 'jv me jeter d''un pont', 'jv deprimer la ^^' ,'alleeeer stppp :(((', 'je vais pleurer snif :C', 'ca va être trop bien... promis !!', 'arretes tu vas me briser le coeur </3']
+    let text = ['pk pas ? ;(','alleeeer stppp :(((', 'je vais pleurer snif :C', 'ca va être trop bien... promis !!', 'arretes tu vas me briser le coeur </3'] ;
     let rep = document.getElementById('rep');
-    rep.textContent = text[getRandomInt(9)] ;
+    rep.textContent = text[getRandomInt(5)] ;
 }
