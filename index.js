@@ -3,7 +3,7 @@ function changeImage() {
     suppDiv.remove();
     var newDiv = document.createElement('div');
     newDiv.setAttribute('style','text-align: center');
-    var newContent = document.createTextNode('MERCIIIIII BEAUCOUP MARIOOON <3');
+    var newContent = document.createTextNode('MERCIIIIII BEAUCOUP <3');
     newDiv.appendChild(newContent);
     var currentDiv = document.getElementById('div1');
     document.body.insertBefore(newDiv,currentDiv);
@@ -24,7 +24,7 @@ function grandit() {
         btn.style.width = (width + 50) + "px";
         btn.style.height = (width + 50) + "px";
     }
-    let text = ['pk pas ? ;(','alleeeer stppp :(((', 'je vais pleurer snif :C', 'ca va être trop bien... promis !!', 'arretes tu vas me briser le coeur </3']
+    let text = ['pk pas ? ;(','alleeeer stppp :(((', 'je vais pleurer snif :C', 'Je vais être gentil... promis !!', 'arretes tu vas me briser le coeur </3']
     let rep = document.getElementById('rep');
     rep.textContent = text[getRandomInt(5)] ;
 }
