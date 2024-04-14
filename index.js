@@ -3,7 +3,7 @@ function changeImage() {
     suppDiv.remove();
     var newDiv = document.createElement('div');
     newDiv.setAttribute('style','text-align: center');
-    var newContent = document.createTextNode('MERCIIIIII BEAUCOUP MON BEBE, L AMOUR DE MA VIE <3');
+    var newContent = document.createTextNode('MERCIIIIII BEAUCOUP MON BEBE <3');
     newDiv.appendChild(newContent);
     var currentDiv = document.getElementById('div1');
     document.body.insertBefore(newDiv,currentDiv);
